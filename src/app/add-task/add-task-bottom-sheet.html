@@ -1,0 +1,26 @@
+<div class="add-task-container">
+    <form class="add-task-container" name="taskForm">
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          id="taskName"
+          #taskName
+          placeholder="What would you like to do?"
+        />
+      </div>
+  
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          id="taskDesc"
+          #taskDesc
+          placeholder="Description"
+        />
+      </div>
+  
+      <button type="button" class="btn addTaskBtn" type="submit" (click)="Create(taskName,taskDesc)">Add Task</button>
+    </form>
+  </div>
+  

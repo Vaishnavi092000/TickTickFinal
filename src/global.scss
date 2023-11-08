@@ -24,3 +24,64 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+/* Add application styles & imports to this file! */
+/* Angular Material */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-image: linear-gradient(to bottom, #f1f2f3 0%, #f2f2f2);
+}
+
+.mat-drawer-container {
+  background-image: linear-gradient(to bottom, #f1f2f3 0%, #f2f2f2);
+}
+
+.mat-drawer-content::-webkit-scrollbar {
+  display: none !important;
+}
+
+.mat-drawer-content {
+  padding: 0px 15px;
+}
+
+.navbar-color {
+  color: white;
+}
+
+.no-border {
+  border-radius: 0px;
+}
+
+.toolbar-color {
+  color: black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.v-center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.mat-drawer-container{
+  position:unset !important;
+}

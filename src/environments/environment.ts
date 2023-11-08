@@ -4,6 +4,15 @@
 
 export const environment = {
   production: false
+
+  // firebase : {
+  //   apiKey: "AIzaSyBSLFYjA2cPyzlpT2IFTp4VjmvtwntMnY8",
+  // authDomain: "ticktickapp-e133b.firebaseapp.com",
+  // projectId: "ticktickapp-e133b",
+  // storageBucket: "ticktickapp-e133b.appspot.com",
+  // messagingSenderId: "915831901561",
+  // appId: "1:915831901561:web:9ee71fd3a0a828c835f3a8"
+  // }
 };
 
 /*
